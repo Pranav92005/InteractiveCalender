@@ -3,7 +3,8 @@
 
 # 📅 Interactive Wall Calendar Component
 
-A polished, skeuomorphic React component that translates a physical wall calendar aesthetic into a functional digital experience. Built with a focus on visual hierarchy, responsive design, and intuitive date range selection.
+A polished React component that translates a physical wall calendar aesthetic into a functional digital experience.
+--> responsive design, and intuitive date range selection.
 
 ---
 
@@ -28,8 +29,7 @@ A polished, skeuomorphic React component that translates a physical wall calenda
 * **Modular Architecture:** The UI is split into distinct components (`HeroHeader`, `NotesSection`, `CalendarGrid`). This keeps the code maintainable and ensures each part has a single responsibility.
 * **Context-Aware Notes:** Instead of a single global note, I implemented a `Record<string, string>` state. This allows the notes section to dynamically load and save text specific to a single date or a selected range.
 
-    * **Wire Bindings:** CSS gradients and rounded borders to mimic metal coils.
-    * **Lined Paper:** A linear-gradient background in the textarea to look like a physical notepad.
+    
 * **Date Logic:** Utilized `date-fns` for robust, immutable date calculations, ensuring the grid renders correctly regardless of the starting day of the week.
 
 ---
